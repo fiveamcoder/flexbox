@@ -57,3 +57,9 @@ body {
     padding: 25px 0;
 }
 /* Banner Section */
+.bannar img {
+    width: 100%;
+    border: 3px solid #f4f4f4;
+    padding: 5px;
+    border-radius: 10px;
+}
