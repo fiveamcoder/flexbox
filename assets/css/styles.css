@@ -63,3 +63,49 @@ body {
     padding: 5px;
     border-radius: 10px;
 }
+/* About Section */
+
+
+.about-area {
+    padding: 60px 0;
+}
+.about-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-title h4 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.about-title p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.single-about {
+    text-align: center;
+    flex-basis: 32%;
+    border: 1px solid #ddd;
+    padding: 20px 10px;
+    transition: 0.3s;
+}
+.single-about i {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 20px;
+}
+.single-about h4 {
+    text-transform: capitalize;
+    font-size: 22px;
+    margin: 25px 0 10px;
+}
+
+.single-about:hover {
+    border-color: tomato;
+}
