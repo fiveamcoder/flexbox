@@ -158,3 +158,26 @@ body {
 .single-service a:hover {
     background: teal;
 }
+/* Gallery Section */
+.gallery-area {
+    padding: 60px 0;
+}
+
+.gallery {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single-gallery {
+    flex-basis: 24%;
+}
+
+.single-gallery img {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 3px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
