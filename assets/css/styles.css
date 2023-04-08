@@ -26,7 +26,6 @@ body {
     width: 1170px;
     margin: 0 auto;
 }
-
 .header {
     display: flex;
     align-items: center;
@@ -108,4 +107,54 @@ body {
 
 .single-about:hover {
     border-color: tomato;
+}
+/* Service Section */
+.services-area {
+    background: #f4f4f4;
+    padding: 60px 0;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.section-title h4 {
+    font-size: 40px;
+}
+.single-service img {
+    width: 100%;
+}
+
+.single-service {
+    flex-basis: 30%;
+    background: #fff;
+    padding: 16px;
+}
+.single-service h4 {
+    text-align: center;
+    color: #fff;
+    background: teal;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.single-service a {
+    background: tomato;
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.single-service a:hover {
+    background: teal;
 }
