@@ -191,12 +191,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 40px;
 }
 
 .contact-form {
     flex-basis: 60%;
     margin-right: 30px;
-    margin-top: 40px;
 }
 
 .contact-form input, .contact-form textarea {
@@ -239,4 +239,14 @@ body {
     display: block;
     font-weight: normal;
     font-size: 16px;
+}
+/* Footer Section  */
+.footer-area {
+    background: teal;
+    padding: 10px 0;
+}
+
+.footer-area p {
+    text-align: center;
+    color: #fff;
 }
